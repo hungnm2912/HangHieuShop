@@ -1,0 +1,35 @@
+.filter-combo-box {
+    padding: 20px 0;
+}
+
+.filter-combo-box .filter-box {
+    text-align: center;
+}
+
+.filter-combo-box .filter-box select {
+    width: 100%;
+}
+
+.see-more {
+    margin: 30px 0;
+}
+
+.see-more .btn-more {
+    border-radius: 0;
+    background: #fff;
+    font-size: 18px;
+}
+
+.recent-view {
+    margin: 30px 0;
+}
+
+.recent-view .block-title {
+    border-left: 5px solid #242424;
+    background: #dfdfdf;
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 1.6vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
