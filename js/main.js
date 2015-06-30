@@ -32,7 +32,7 @@ $(document).ready(function(){
     document.getElementById("menu-area").style.height = max + "px";
 
     var swiper = new Swiper('.slides', {
-        autoplay: 10000,
+        autoplay: 5000,
         pagination: '.swiper-pagination',
         autoplayDisableOnInteraction: false
     });
