@@ -92,6 +92,7 @@ PRODUCT DETAIL
     color: #9d9a9a;
     text-decoration: line-through;
     padding: 5px 0;
+    font-weight: 400;
 }
 
 .product-short-detail .attribute select {
