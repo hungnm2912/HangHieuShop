@@ -237,7 +237,7 @@
     width: 15px;
 }
 .row.category .category-name span {
-    font-size: 6px;
+    font-size: 5px;
     color : #ffffff;
 }
 .row.category .type-list{
@@ -271,6 +271,7 @@
 
 .row.category .type-list .type-list-ul .type-list-item.more .btn{
     padding: 0;
+    background-color: inherit;
 }
 
 .row.category .type-list .type-list-ul .type-list-item.more{
@@ -345,6 +346,38 @@
     display: block;
 }
 
+.row.sample .sample-item .thumbnail .percent-sale {
+    position: absolute;
+    top: 2%;
+    right: 7%;
+    color: #ffffff;
+    background: url('../img/cart_eclipse.png') no-repeat;
+    background-size: 100% 100%;
+    font-size: 8px;
+    padding: 2px;
+    width: 24px;
+    height: 24px;
+    padding-top: 6px;
+}
+
+.row.sample .sample-item .thumbnail .sale-title ,.new-title{
+    position: absolute;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 8px;
+    padding: 2px;
+    width: 24px;
+    text-align: center;
+}
+.row.sample .sample-item .thumbnail .sale-title{
+     top: 2%;
+     left: 7%;
+ }
+.row.sample .sample-item .thumbnail .new-title{
+    top: 8%;
+    left: 7%;
+}
+
 .row.sample .sample-item .thumbnail .caption {
     background-color: #e5e5e5;
 }
@@ -395,6 +428,10 @@
 .row.sample .sample-item .thumbnail .caption  hr {
     border-top: 1px solid #000000;
     margin: 5px 0;
+}
+
+.row.advertising .advertising-item{
+    padding: 0;
 }
 
 .footer .guide {
@@ -627,7 +664,7 @@
         font-size: 4px;
     }
     .row.category .category-name span {
-        font-size: 7px;
+        font-size: 6px;
     }
     .row.category .type-list .type-list-ul .type-list-item a{
         font-size: 6px;
@@ -680,6 +717,17 @@
     }
     .row.category .type-list .type-list-ul .type-list-item a {
         font-size: 8px;
+    }
+    .row.sample .sample-item .thumbnail .sale-title ,.new-title{
+        font-size: 10px;
+        width: 30px;
+    }
+    .row.sample .sample-item .thumbnail .percent-sale {
+        font-size: 10px;
+        padding: 2px;
+        width: 30px;
+        height: 30px;
+        padding-top: 8px;
     }
 }
 
@@ -773,5 +821,16 @@
     }
     .row.sample .sample-item .thumbnail .caption .caption-price .price-info .old-price {
         font-size: 16px;
+    }
+    .row.sample .sample-item .thumbnail .percent-sale {
+        font-size: 12px;
+        padding: 4px;
+        width: 36px;
+        height: 36px;
+        padding-top: 10px;
+    }
+    .row.sample .sample-item .thumbnail .sale-title ,.new-title{
+        font-size: 12px;
+        width: 40px;
     }
 }
