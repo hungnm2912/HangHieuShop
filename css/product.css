@@ -21,9 +21,10 @@
 }
 
 .recent-view {
-    height: 54px;
-    background-color: #ffffff;
-    border:1px solid #ccc;
+    height: 74px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .recent-view .block-title {
@@ -32,8 +33,8 @@
     color: #404040;
     text-transform: uppercase;
     font-size: 1.6vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 74px;
+    padding: 20px 10px;
 }
 
 .recent-view .nav-control i {
@@ -60,7 +61,7 @@
 }
 
 .recent-view .recent-list-slide {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .recent-view .recent-list-slide .swiper-slide {
@@ -75,7 +76,7 @@
     right: 0;
     top:0;
     color: #444444;
-    font-size: 12px;
+    font-size: 1.5vw;
     background: #fff;
 }
 
@@ -93,7 +94,7 @@
 }
 
 .recent-view .recent-list-slide {
-    height: 54px;
+    height: 74px;
 }
 
 /*
