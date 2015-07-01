@@ -22,9 +22,8 @@
 
 .recent-view {
     height: 54px;
-    background: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: #ffffff;
+    border:1px solid #ccc;
 }
 
 .recent-view .block-title {
