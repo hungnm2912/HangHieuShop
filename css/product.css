@@ -74,7 +74,7 @@
     position: absolute;
     height: 100%;
     right: 0;
-    top:0;
+    top: 0;
     color: #444444;
     font-size: 1.5vw;
     background: #fff;
@@ -204,25 +204,96 @@ PRODUCT DETAIL
     font-weight: 800;
 }
 
-.detail-full .panel-default>.panel-heading+.panel-collapse>.panel-body {
+.detail-full .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-top: none;
 }
 
 .detail-full .panel-heading .toogle-btn:after {
     /* symbol for "opening" panels */
-    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
-    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
-    float: right;        /* adjust as needed */
-    color: grey;         /* adjust as needed */
-}
-.detail-full .panel-heading .toogle-btn.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+    font-family: 'Glyphicons Halflings'; /* essential for enabling glyphicon */
+    content: "\e114"; /* adjust as needed, taken from bootstrap.css */
+    float: right; /* adjust as needed */
+    color: grey; /* adjust as needed */
 }
 
-@media(min-width: 480px){
+.detail-full .panel-heading .toogle-btn.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080"; /* adjust as needed, taken from bootstrap.css */
+}
+
+@media (min-width: 480px) {
     .filter-combo-box .filter-box {
         width: 25%;
         padding: 5px;
     }
+}
+
+/*
+=====================================
+NEWS PAGE
+===============================*/
+.news-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #818181;
+}
+
+.news-container .archive {
+    margin: 20px 0;
+}
+
+.archive .entry-header .entry-title, .archive .entry-header .entry-title a {
+    font-size: 16px;
+    color: #242424;
+    margin: 0;
+}
+
+.archive .entry-meta {
+    margin: 10px 0 20px 0;
+}
+
+.archive .entry-container {
+    position: relative;
+}
+
+.archive .entry-content .tags-field {
+    display: block;
+}
+
+.archive .entry-content p a.more {
+    color: #818181;
+    font-style: italic;
+}
+
+.archive .entry-footer {
+    width: 70%;
+    border-top: 1px solid #818181;
+    margin-top: 20px;
+    font-size: 11px;
+    padding: 10px 0 0 0;
+}
+
+.news-control {
+    margin: 20px 0 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.news-control .pagination {
+    margin: 0;
+}
+
+.news-control .pagination > .active > a, .news-control .pagination > .active > span, .news-control .pagination > .active > a:hover, .news-control .pagination > .active > span:hover, .news-control .pagination > .active > a:focus, .news-control .pagination > .active > span:focus {
+    background-color: #242424;
+    border-color: #242424;
+    color: #ffffff;
+}
+
+.news-control .pagination > li > a, .news-control .pagination > li > span {
+    color: #242424;
+    font-size: 12px;
+    padding: 6px 10px;
+    line-height: 1.12857143;
 }
