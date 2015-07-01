@@ -590,6 +590,8 @@
     background-color: #000000;
     color: #ffffff;
     background-size: 8px 50px;
+    height: 50px;
+    margin-top: -25px;
 }
 
 .row.brand .slides-2 .swiper-button-prev{
