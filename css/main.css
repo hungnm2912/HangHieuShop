@@ -575,6 +575,31 @@
     font-weight: bold;
 }
 
+.row.brand{
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    border-top:1px solid #ccc;
+    overflow: hidden;
+}
+
+.row.brand .brand-list{
+    padding: 0 39px;
+}
+
+.row.brand .slides-2 .swiper-button-prev,.swiper-button-next{
+    background-color: #000000;
+    color: #ffffff;
+    background-size: 8px 50px;
+}
+
+.row.brand .slides-2 .swiper-button-prev{
+    left: 0;
+}
+
+.row.brand .slides-2 .swiper-button-next{
+    right: 0;
+}
+
 .footer .guide {
     background-color: #f0f0f0;
 }
@@ -896,6 +921,11 @@
     .row.new .new-content .new-list .new-item p ,.row.new .new-content .new-top a p {
         font-size: 7px;
     }
+    .swiper-button-next, .swiper-button-prev {
+        width: 34px;
+        height: 62px;
+        margin-top: -31px;
+    }
 }
 
 @media(min-width: 768px) {
@@ -1020,5 +1050,13 @@
     }
     .row.new .new-content .new-top a .title {
         font-size: 14px;
+    }
+    .row.brand .slides-2 .swiper-button-prev, .swiper-button-next {
+        background-size: 15px 30px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        width: 40px;
+        height: 75px;
+        margin-top: -38px;
     }
 }
