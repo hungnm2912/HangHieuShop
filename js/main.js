@@ -36,4 +36,12 @@ $(document).ready(function(){
         pagination: '.swiper-pagination',
         autoplayDisableOnInteraction: false
     });
+
+    var sliderRecent = new Swiper('.recent-list-slide', {
+        slidesPerView: 3,
+        nextButton: '.nav-control.nav-next',
+        prevButton: '.nav-control.nav-prev',
+        freeMode: true
+    });
+
 });

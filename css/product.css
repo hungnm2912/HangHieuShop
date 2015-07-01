@@ -21,7 +21,10 @@
 }
 
 .recent-view {
-    margin: 30px 0;
+    height: 54px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .recent-view .block-title {
@@ -32,6 +35,66 @@
     font-size: 1.6vw;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.recent-view .nav-control i {
+    font-size: 25px;
+    line-height: 54px;
+}
+
+.recent-view .nav-control {
+    padding: 0;
+    text-align: center;
+}
+
+.recent-view .nav-control:hover {
+    background: #242424;
+}
+
+.recent-view .nav-control:hover i {
+    color: #fff;
+}
+
+.recent-view .recent-list-slide .item-image {
+    width: 60%;
+    height: 100%;
+}
+
+.recent-view .recent-list-slide {
+    overflow-x: hidden;
+}
+
+.recent-view .recent-list-slide .swiper-slide {
+    position: relative;
+    justify-content: flex-start;
+}
+
+.recent-view .recent-list-slide .swiper-slide .item-info {
+    width: 40%;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top:0;
+    color: #444444;
+    font-size: 12px;
+    background: #fff;
+}
+
+.recent-view .recent-list-slide .swiper-slide .item-info:before {
+    content: '';
+    position: absolute;
+    top: 36%;
+    right: 100%;
+    margin-left: -9px;
+    width: 0;
+    height: 0;
+    border-right: solid 9px #fff;
+    border-top: solid 5px transparent;
+    border-bottom: solid 5px transparent;
+}
+
+.recent-view .recent-list-slide {
+    height: 54px;
 }
 
 /*
