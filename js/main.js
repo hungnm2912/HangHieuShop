@@ -48,7 +48,7 @@ $(document).ready(function(){
     });
 
     var sliderRecent = new Swiper('.recent-list-slide', {
-        slidesPerView: 3,
+        slidesPerView: 'auto',
         nextButton: '.nav-control.nav-next',
         prevButton: '.nav-control.nav-prev',
         freeMode: true
