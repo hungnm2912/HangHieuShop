@@ -33,8 +33,7 @@
     color: #404040;
     text-transform: uppercase;
     font-size: 1.6vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 54px;
 }
 
 .recent-view .nav-control i {
@@ -61,7 +60,7 @@
 }
 
 .recent-view .recent-list-slide {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .recent-view .recent-list-slide .swiper-slide {
