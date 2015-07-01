@@ -5,6 +5,7 @@
 .filter-combo-box .filter-box {
     text-align: center;
     width: 50%;
+    padding: 5px 15px;
 }
 
 .filter-combo-box .filter-box select {
