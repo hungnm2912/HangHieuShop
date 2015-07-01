@@ -21,7 +21,7 @@
 }
 
 .recent-view {
-    height: 54px;
+    height: 74px;
     background: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,7 +33,8 @@
     color: #404040;
     text-transform: uppercase;
     font-size: 1.6vw;
-    height: 54px;
+    height: 74px;
+    padding: 20px 10px;
 }
 
 .recent-view .nav-control i {
@@ -93,7 +94,7 @@
 }
 
 .recent-view .recent-list-slide {
-    height: 54px;
+    height: 74px;
 }
 
 /*
