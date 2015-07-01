@@ -4,6 +4,7 @@
 
 .filter-combo-box .filter-box {
     text-align: center;
+    width: 50%;
 }
 
 .filter-combo-box .filter-box select {
@@ -23,8 +24,6 @@
 .recent-view {
     height: 74px;
     background: #fff;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .recent-view .block-title {
@@ -218,4 +217,11 @@ PRODUCT DETAIL
 .detail-full .panel-heading .toogle-btn.collapsed:after {
     /* symbol for "collapsed" panels */
     content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+@media(min-width: 480px){
+    .filter-combo-box .filter-box {
+        width: 25%;
+        padding: 5px;
+    }
 }

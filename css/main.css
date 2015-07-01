@@ -603,6 +603,30 @@
     right: 0;
 }
 
+.row.breadcrumb-area{
+    background-color: #ebebeb;
+}
+
+.row.breadcrumb-area .breadcrumb-col{
+    padding: 0;
+}
+
+.row.breadcrumb-area .breadcrumb-col .breadcrumb{
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.row.breadcrumb-area .breadcrumb-col .breadcrumb li a,.row.breadcrumb-area .breadcrumb-col .breadcrumb li{
+    color: #818181;
+    font-size: 10px;
+}
+
+.row.breadcrumb-area .breadcrumb-col .category-title{
+    padding-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .footer .guide {
     background-color: #f0f0f0;
 }
@@ -1061,5 +1085,14 @@
         width: 40px;
         height: 75px;
         margin-top: -38px;
+    }
+    .row.breadcrumb-area .breadcrumb-col .breadcrumb li a, .row.breadcrumb-area .breadcrumb-col .breadcrumb li {
+        font-size: 12px;
+    }
+    .row.breadcrumb-area .breadcrumb-col .category-title {
+        font-size: 28px;
+    }
+    .row.breadcrumb-area .breadcrumb-col .number-product {
+        font-size: 18px;
     }
 }
