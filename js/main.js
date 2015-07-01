@@ -37,6 +37,16 @@ $(document).ready(function(){
         autoplayDisableOnInteraction: false
     });
 
+    var swiper2 = new Swiper('.slides-2', {
+        autoplay: 5000,
+        slidesPerView : 3,
+        spaceBetween : 20,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        loop : true,
+        autoplayDisableOnInteraction: false
+    });
+
     var sliderRecent = new Swiper('.recent-list-slide', {
         slidesPerView: 3,
         nextButton: '.nav-control.nav-next',
