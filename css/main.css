@@ -627,6 +627,62 @@
     font-weight: bold;
 }
 
+.row.tags-page-photo{
+    margin-top: 20px;
+}
+
+.row.tags-page-info .tags-page-info-col{
+    padding: 15px;
+}
+
+.row.tags-page-info .tags-page-info-col .tags-page-description{
+    font-size: 12px;
+}
+
+.row.tags-page-info .tags-page-info-col .current-tags{
+    margin: 15px 0 0 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row.tags-page-info .tags-page-info-col .current-tags .tag-keyword{
+    font-style: italic;
+}
+
+.row.sample.tags .row.category.tags{
+    margin: 0;
+}
+.row.sample.tags{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.row.sample.tags .row.category.tags .category-name span{
+    font-size: 8px;
+}
+
+.row.sample.tags .news-container{
+    margin-top: 0;
+    font-size: 10px;
+}
+
+.row.sample.tags .news-container .archive .entry-header .entry-title a {
+    font-size: 14px;
+}
+
+.row.sample.tags .news-container .archive{
+    margin-top: 0;
+}
+
+.row.sample.tags .news-container .archive .featured-thumb,.row.sample.tags .news-container .archive .entry-container{
+    padding: 0;
+}
+
+.row.sample.tags .news-container .archive .entry-meta{
+    margin: 5px 0;
+}
+
+
 .footer .guide {
     background-color: #f0f0f0;
 }
@@ -880,6 +936,13 @@
     .row.new .new-content .new-top a .title{
         font-size: 7px;
     }
+    .row.sample.tags .news-container{
+        font-size: 12px;
+    }
+
+    .row.sample.tags .news-container .archive .entry-header .entry-title a {
+        font-size: 16px;
+    }
 }
 
 @media(min-width: 480px){
@@ -1094,5 +1157,21 @@
     }
     .row.breadcrumb-area .breadcrumb-col .number-product {
         font-size: 18px;
+    }
+    .row.tags-page-info .tags-page-info-col .current-tags {
+        font-size: 30px;
+    }
+    .row.tags-page-info .tags-page-info-col .tags-page-description {
+        font-size: 20px;
+    }
+    .row.sample.tags .news-container {
+        font-size: 16px;
+    }
+    .row.sample.tags .news-container .archive .entry-header .entry-title a {
+        font-size: 20px;
+    }
+    .row.sample.tags .row.category.tags .category-name span {
+        font-size: 14px;
+        line-height: 30px;
     }
 }
