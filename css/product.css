@@ -297,3 +297,66 @@ NEWS PAGE
     padding: 6px 10px;
     line-height: 1.12857143;
 }
+
+/*
+=========================================
+    BRANDS PAGE
+========================================
+*/
+.brands {
+    padding: 20px 1.5% 40px;
+}
+
+.brands .brand-item {
+    border: 1px solid #d9d9d9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 3%;
+}
+
+.brands .row div:last-child.brand-item {
+    margin-right: 0;
+}
+
+.brands .row div:first-child.brand-item {
+    margin-left: 2%;
+}
+
+.brands > .row {
+    margin: 10px 0;
+}
+
+/*
+=======================================
+    SITEMAP PAGE
+======================================*/
+.sitemap {
+    padding: 20px 0;
+}
+
+.sitemap .site-map-item-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #252525;
+}
+
+.sitemap .sitemap-block ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.sitemap .sitemap-block ul li:before {
+    content: ">";
+    margin-right: 6px;
+}
+
+.sitemap .sitemap-block ul li a {
+    color: #252525;
+    font-size: 14px;
+}
+
+.sitemap .sitemap-block {
+    margin-bottom: 40px;
+    padding: 0 2%;
+}
