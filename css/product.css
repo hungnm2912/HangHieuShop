@@ -360,3 +360,63 @@ NEWS PAGE
     margin-bottom: 40px;
     padding: 0 2%;
 }
+
+/*
+======================================
+    NEWS DETAIL
+=======================================
+*/
+.archive-detail .entry-header h1 {
+    color: #242424;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.archive-detail .entry-header {
+    margin-bottom: 30px;
+}
+
+.archive-detail .featured-img {
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.archive-detail .entry-content {
+    color: #242424;
+}
+
+.archive-detail .entry-content h1 {
+    font-size: 24px;
+}
+
+.archive-detail .entry-content h2 {
+    font-size: 22px;
+}
+
+.archive-detail .entry-content h3 {
+    font-size: 20px;
+}
+
+.archive-detail .entry-content h4 {
+    font-size: 18px;
+}
+
+.archive-detail .entry-content a {
+    color: #242424;
+    text-decoration: underline;
+}
+
+.archive-detail .entry-content a:hover {
+    color: #e74c3c;
+}
+
+.archive-detail .entry-content .btn {
+    background: #242424;
+    color: #ffffff;
+}
+
+.archive-detail .entry-content .btn:hover {
+    background: #e74c3c;
+}
